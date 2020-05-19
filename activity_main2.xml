@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".Main3Activity">
+    <TextView
+            android:text="BAGAIMANA PROSES PENYEBARAN ?"
+            android:textColor="#DC143C"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="100dp"
+            android:layout_centerHorizontal="true"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteY="230dp" tools:layout_editor_absoluteX="137dp"/>
+
+    <TextView
+            android:text="Seringkali virus ini menyebar antara manusia ke manusia melalui tetesan cairan dari mulut dan hidung saat orang yang terinfeksi sedang batuk atau bersin, mirip dengan cara penularan penyakit flu. Tetes cairan dari mulut dan hidung pasien tersebut bisa jatuh dan tertinggal pada mulut dan hidung orang lain yang berada di dekatnya, bahkan dihisap dan terserap ke dalam paru-paru orang tersebut melalui hidungnya."
+            android:textColor="#DC143C"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:layout_marginTop="200dp"
+            android:layout_centerHorizontal="true"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteY="304dp" tools:layout_editor_absoluteX="70dp"/>
+
+    <Button
+            android:id="@+id/kembali"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="400dp"
+            android:text="Kembali" tools:layout_editor_absoluteY="487dp"
+            tools:ignore="MissingConstraints"
+            android:layout_marginRight="64dp"/>
+
+</RelativeLayout>
