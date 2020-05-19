@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity">
+
+    <ImageView
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/logocovid"
+            tools:ignore="MissingConstraints">
+    </ImageView>
+
+    <Button
+            android:id="@+id/Corona"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="300dp"
+            android:layout_centerHorizontal="true"
+            android:text="Corona" tools:layout_editor_absoluteY="291dp"
+            tools:ignore="MissingConstraints"
+            android:layout_marginRight="60dp"/>
+    <Button
+            android:id="@+id/Penyebaran"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="350dp"
+            android:layout_centerHorizontal="true"
+            android:text="Penyebaran" tools:layout_editor_absoluteY="338dp"
+            tools:ignore="MissingConstraints"
+            android:layout_marginRight="60dp"/>
+    <Button
+            android:id="@+id/Gejala"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="400dp"
+            android:layout_centerHorizontal="true"
+            android:text="Gejala" tools:layout_editor_absoluteY="385dp"
+            tools:ignore="MissingConstraints"
+            android:layout_marginRight="60dp"/>
+
+    <Button
+            android:id="@+id/student"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="450dp"
+            android:layout_centerHorizontal="true"
+            android:text="Pasien" tools:layout_editor_absoluteY="385dp"
+            tools:ignore="MissingConstraints"
+            android:layout_marginRight="60dp"/>
+</RelativeLayout>
