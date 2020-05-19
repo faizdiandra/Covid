@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".Main4Activity">
+    <TextView
+            android:text="GEJALA DARI CORONA ?"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="100dp"
+            android:layout_centerHorizontal="true"
+            android:textColor="#DC143C"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteY="230dp" tools:layout_editor_absoluteX="137dp"/>
+
+    <TextView
+            android:text="Gejalanya yaitu demam, batuk, dan napas yang pendek. The Center for Disease Control and Prevention (CDC) percaya bahwa pasien Virus Corona dapat mengalami gejala-gejala ini 2 dari 2 hari sampai 14 hari setelah terpapar virusnya."
+            android:textColor="#DC143C"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:layout_marginTop="200dp"
+            android:layout_centerHorizontal="true"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteY="304dp" tools:layout_editor_absoluteX="70dp"/>
+    <Button
+            android:id="@+id/kembali"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="400dp"
+            android:text="Kembali" tools:layout_editor_absoluteY="487dp"
+            tools:ignore="MissingConstraints"
+            android:layout_marginRight="64dp"/>
+
+</RelativeLayout>
